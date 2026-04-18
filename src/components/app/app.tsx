@@ -9,7 +9,6 @@ import styles from './app.module.scss';
 export const App = () => {
 	const [currentArticleState, setCurrentArticleState] =
 		useState(defaultArticleState);
-
 	return (
 		<main
 			className={styles.main}
